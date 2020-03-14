@@ -1,0 +1,112 @@
+*
+{
+	font-family: tahoma;
+	margin:0;
+	padding: 0;
+}
+
+body
+{
+	background: url('images/bk.png') repeat-x;
+}
+.holder
+{
+	width: 960px;
+	margin:auto;
+	height: 240px;
+	
+}
+
+.holder .heading
+{
+	width: 100%;
+	height: 100px;
+	background: white;
+	box-shadow: 0px 2px 3px red;
+}
+
+.holder .heading .logo
+{
+	width: 30%;
+	float: left;
+	margin:0px 10px 0 10px;
+
+}
+
+.holder .heading .links
+{
+	width: 60%;
+	float: right;
+}
+
+.holder .heading .links .top 
+{
+	background: #51B6C8;
+	width: 50%;
+	height: 20px;
+	padding: 5px;
+	margin-top: 15px;
+	float: right;
+	opacity: .8;
+	margin-right: -15px;
+}
+.holder .heading .links .top:after
+{
+	content: "";
+	width: 0px;
+	height: 0px;
+	
+	display:  block;
+	position: relative;
+	left:279px;
+	right:0;
+	top:-20px;
+	border:5px solid #298D9C;
+	border-left:10px solid #298D9C;
+	border-bottom:5px solid #298D9C;
+}
+.holder .heading .links .top a
+{
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+	padding:0px 10px;
+	border-right:1px solid #fff;
+}
+.holder .heading .links .top a:last-child
+{
+	border:none;
+}
+
+.holder .heading .links .nav
+{
+	clear: both;
+	float: right;
+	margin-top: 15px;
+}
+
+.holder .heading .links .nav ul li 
+{
+	list-style-type: none;
+	float: left;
+}
+
+.holder .heading .links .nav ul li a 
+{
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px;
+	margin:10px;
+	color:#7E9171;
+	font-weight: 550;
+}
+
+.holder .heading .links .nav ul li a.current
+{
+	color:#51B6C8;
+}
+
+.title .t1{
+	color: blue
+	background: white;
+}

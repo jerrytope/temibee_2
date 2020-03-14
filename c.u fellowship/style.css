@@ -1,0 +1,418 @@
+*
+{
+	font-family: verdana;
+	margin:0;
+	padding: 0;
+}
+
+
+.slide
+{
+	background: url('images/slider.jpg');
+	background-size:cover; 	
+	width: 100%;
+	height: 460px;
+	display: block;
+	position: absolute;
+	top: 0;
+	z-index: -2000;
+	z-index: -1000;
+}
+
+.next
+{
+	width: 20px;
+	height:50px;
+	background: white;
+	position: absolute;
+	right: 0;
+	color: white;
+	display: block;
+	line-height: 50px;
+	top:35%;
+	cursor: pointer;
+}
+
+.prev
+{
+	width:20px;
+	height:50px;
+	background: white;
+	position: absolute;
+	left: 0;
+	color: white;
+	display: block;
+	line-height: 50px;
+	top: 35%;
+	cursor: pointer;
+}
+.holder
+{
+	width: 960px;
+	margin:auto;
+	height: 300px;
+	
+}
+
+.holder .heading
+{
+	width: 100%;
+	height: 100px;
+	background: #fff;
+}
+
+.holder .heading .logo
+{
+	width: 20%;
+	float: left;
+}
+
+
+.holder .heading .links
+{
+	width: 80%;
+	float: left;
+}
+.holder .heading .links h1{
+	display: inline-block;
+	color: blue;
+	line-height: 50px;
+	/*margin: 0px 0 0 70px;*/
+}
+/*.holder .heading .h1{
+	width: 55%;
+	float: left;
+	color: blue;
+	/*margin: 0px 0 0 70px;
+}*/
+
+.holder .heading .links .top 
+{
+	background: #51B6C8;
+	width: 30%;
+	height: 20px;
+	padding: 5px;
+	margin-top: 15px;
+	float: right;
+	opacity: .8;
+	/*margin-right: -15px;*/
+}
+
+
+
+}
+
+.holder .heading .links .top a
+{
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+	padding:0px 10px;
+	border-right:1px solid #fff;
+}
+
+.holder .heading .links .top a:last-child
+{
+	border:none;
+}
+
+.holder .heading .links .nav
+{
+	clear: both;
+	float: right;
+	margin-top: 15px;
+	display: inline-block;
+	position: relative;
+	/*font-size: 12px*/
+	
+}
+
+.holder .heading .links .nav ul li 
+{
+	list-style-type: none;
+	float: left;
+}
+
+.holder .heading .links .nav ul li a 
+{
+	text-transform: uppercase;
+	text-decoration: none;
+	padding:5px;
+	margin:5px;
+	color:red;
+	font-weight: 550;
+}
+
+
+
+.holder .title
+{
+	width: 360px;
+	height: 100px;
+	background:blue;
+	padding: 20px;
+	position:relative;
+	top:200px;
+	opacity: .7;
+	color:white;
+	font-size: 20px;
+	display: block;
+}
+
+.holder .title span
+{
+	font-size: 29px;
+}
+
+.pop
+{
+	width: 960px;
+	margin:auto;
+	position: relative;
+	top: 220px;
+	clear: both;
+
+}
+
+
+.pop .content
+{
+	margin-top: 20px;
+	width: 100%;
+	margin-bottom: 20px;
+	display:block;
+	
+
+}
+
+.pop .content .span4
+{
+	width: 32%;
+	height: 200px;
+	background: #09f;
+	float: left;
+	
+}
+
+.pop .content .span4 h1 
+{
+	text-transform: uppercase;
+	color: blue;
+	margin-top: 100px;
+	display: inline-block;
+	float: left;
+	margin-left: 30px;
+}
+
+.pop .content .span4 span 
+{
+	color:white;
+	clear: both;
+	float: right;
+	width: 85%;
+	height: 40px;
+	/*background: white;*/
+	background: url('images/arr.png') left no-repeat blue;
+	padding: 5px;
+	line-height: 40px;
+	opacity:.8;
+	font-size: 15.5px;
+	position: relative;
+	top: 5%;
+}
+
+.pop .content .span4 span div
+{
+	display: inline;
+	float: right;
+}
+
+.pop .content .span4:first-child
+{
+	background: url('images/stories.jpg');
+	background-size: cover;
+	display: inline-block;
+
+}
+
+/*.pop .content .span4:first-child span 
+{
+	background: url('images/arr.png') left no-repeat blue;
+	display: inline-block;
+	
+
+}
+*/.pop .content .span4:last-child
+{
+	background: url('images/prayer.jpg');
+	background-size: cover;
+	display: inline-block;
+}
+.pop .content .span4:last-child span 
+{
+	/*background: url('images/arr.png') left no-repeat blue;
+	display:block;
+	*/
+}
+
+.pop .content .span4:nth-child(even) 
+{
+	margin-right: 2%;
+	margin-left: 2%;
+	background: url('images/give.jpg');
+	display: inline-block;
+	background-size: cover;
+}
+
+/*.pop .content .span4:nth-child(even) span
+{
+	background: url('images/arr.png') left no-repeat blue;
+	
+}*/
+
+
+.pop .content .span6
+{
+	width: 48%;
+	float: left;
+	margin-top: 20px;
+}
+
+.pop .content .span6:first-child
+{
+	padding-right: 2%;
+}
+
+.pop .content .span6:last-child
+{
+	padding-left: 2%;
+}
+
+
+.pop .content .span6 h3
+{
+	text-transform: uppercase;
+	color: purple;
+	font-size:20px;
+	font-family:lato;
+	margin: 15px 0;
+}
+
+.pop .content .span6 .list
+{
+	width: 100%;
+	height: 62px;
+	padding: 15px 0 0 0;
+	border-top: 1px solid red;
+}
+
+
+.pop .content .span6 .date
+{
+	width: 10%;
+	float: left;
+	margin-right: 1%;
+}
+
+.pop .content .span6 .date > .day
+{
+	font-size: 22px;
+	font-weight: bold;
+	display: block;
+	color: red;
+	margin-top: -3px;
+}
+.pop .content .span6 .date > .day ~ .month
+{
+	text-transform: uppercase;
+	font-size: 13px;
+	color: blue;
+}
+
+.pop .content .span6  .day
+{
+	width: 68%;
+	float: left;
+	margin-right: 1%;
+	margin-top: 3px;
+}
+
+.pop .content .span6  .day h4
+{
+	color:red;
+	text-transform: uppercase;
+	font-family: arial;
+}
+.pop .content .span6  .day p
+{
+	font-size: 20px;
+	line-height: auto;
+}
+
+
+
+.pop .content .span6 .more
+{
+	width: 20%;
+	float: left;
+
+}
+
+.pop .content .span6 .more a
+{
+	background: blue;
+	color: white;
+	text-decoration: none;
+	padding: 5px 15px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-top: 5px;
+	font-size: 13px;
+	border-radius: 5px;
+}
+
+.pop .content .span6 .more a:hover
+{
+	background: green;
+	border-radius: 20px;	
+}
+
+.pop .content .span6 h3 ~ p
+{
+	font-size: 15px;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+
+.pop .content .span6:last-child  a
+{
+	color:#FF8576;
+	font-size: 13px;
+	text-decoration: none;
+	
+}
+
+footer 
+{
+	width:100%;
+	margin:auto;
+	position: relative;
+	top: 220px;
+	clear: both;
+	background: teal;
+	height: 60px;
+
+}
+footer .foot
+{
+	width: 960px;
+	margin:auto;
+
+}
+footer .foot .span6
+{
+	width: 50%;
+	float: right;
+	margin-top: 30px;
+	
+}
